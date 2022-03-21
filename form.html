@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <script src="./form.js"></script>
+    <title>Make Resume</title>
+</head>
+
+<body>
+
+    <!-- Resume Body -->
+    <div class="resume">
+        <!-- Top Section -->
+        <div class="section1">
+            <div class="left">
+                <div class="logo">
+                    <img src="./University logo.png" alt="University Logo">
+                </div>
+                <div class="info">
+                    <div id="name"></div>
+                    <div id="addLine1"></div>
+                    <div id="addLine2"></div>
+                    <div>
+                        <span id="city"></span>
+                        <span id="state"></span>
+                        <span id="pinCode"></span>
+                    </div>
+                    <div>+91 <span id="contact"></span></div>
+                    <div id="email"></div>
+                    <div>
+                        <span id="linkedIn"></span><br>
+                        <span id="gitHub"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <button id="addPic1">Add Picture</button>
+                <button id="addPic2">Don't Add Picture</button>
+            </div>
+        </div>
+
+
+        <!-- Education Section -->
+        <div class="section2">
+            <h4>Education :</h4>
+            <table>
+                <tr>
+                    <th>Qualification/Degree</th>
+                    <th>School/College</th>
+                    <th>University/Board</th>
+                    <th>Year</th>
+                    <th>Score</th>
+                </tr>
+                <tr>
+                    <td id="q1"></td>
+                    <td id="q2"></td>
+                    <td id="q3"></td>
+                    <td id="q4"></td>
+                    <td id="q5"></td>
+                </tr>
+                <tr>
+                    <td id="q6"></td>
+                    <td id="q7"></td>
+                    <td id="q8"></td>
+                    <td id="q9"></td>
+                    <td id="q10"></td>
+                </tr>
+                <tr>
+                    <td id="q11"></td>
+                    <td id="q12"></td>
+                    <td id="q13"></td>
+                    <td id="q14"></td>
+                    <td id="q15"></td>
+                </tr>
+            </table>
+        </div>
+
+
+        <!-- Projects Section -->
+        <div class="section3">
+            <h4>Projects :</h4>
+            <div class="projects" id="projects">
+            </div>
+        </div>
+
+
+        <!-- Skills Section -->
+        <div class="section4">
+            <h4>Professional Skills :</h4>
+            <table>
+                <tr>
+                    <th>Programming Languages :</th>
+                    <td><pre id="progLang"></pre></td>
+                </tr>
+                <tr>
+                    <th>Languages :</th>
+                    <td><pre id="lang"></pre></td>
+                </tr>
+                <tr>
+                    <th>Frameworks :</th>
+                    <td><pre id="frameworks"></pre></td>
+                </tr>
+                <tr>
+                    <th>Databases :</th>
+                    <td><pre id="dbs"></pre></td>
+                </tr>
+                <tr>
+                    <th>Tools :</th>
+                    <td><pre id="tools"></pre></td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Certificate Section -->
+        <div id="certdiv" class="section_bottom">
+            <h4>Certifications :</h4>
+            <ul id="certs">
+                
+            </ul>
+        </div>
+
+        <!-- Achievements -->
+        <div id="achdiv" class="section_bottom">
+            <h4>Achievements :</h4>
+            <ul id="achs">
+            </ul>
+        </div>
+
+        <!-- Hobbies -->
+        <div id="hobbdiv" class="section_bottom">
+            <h4>Hobbies :</h4>
+            <ul id="hobbs">
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

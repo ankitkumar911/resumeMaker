@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>CV Maker</title>
+</head>
+<body id="index">
+    <div class="preview">
+        <h1>Preview</h1>
+        <iframe src="./Make Resume.pdf#toolbar=0&navpanes=0" frameborder="0"></iframe>
+    </div>
+
+    <fieldset>
+        <legend>CV Maker</legend>
+        <input type="text" id="name" placeholder="Name" class="input">
+        <input type="text" id="addLine1" placeholder="flat / house no." class="input">
+        <input type="text" id="addLine2" placeholder="locality" class="input">
+        <div class="divin">
+            <input type="text" id="city" placeholder="city">
+            <input type="text" id="state" placeholder="state">
+            <input type="text" id="pinCode" placeholder="pin code">
+        </div>
+        <input type="tel" id="contact" pattern="[0-9]{10}" placeholder="contact number">
+        <input type="email" id="email" placeholder="university email id">
+        <div class="divin">
+            <input type="text" id="linkedIn" placeholder="linkedin username">
+            <input type="text" id="gitHub" placeholder="github account">
+        </div>
+        <p>Current</p>
+        <div class="divun">
+            <input type="text" id="q1" placeholder="Qualification">
+            <input type="text" id="q2" placeholder="School/College">
+            <input type="text" id="q3" placeholder="University/Board">
+            <input type="text" id="q4" placeholder="Year">
+            <input type="text" id="q5" placeholder="Score">
+        </div>
+        <p>Class XII/College</p>
+        <div class="divun">
+            <input type="text" id="q6" placeholder="Qualification">
+            <input type="text" id="q7" placeholder="School/College">
+            <input type="text" id="q8" placeholder="University/Board">
+            <input type="text" id="q9" placeholder="Year">
+            <input type="text" id="q10" placeholder="Score">
+        </div>
+        <p>Class X</p>
+        <div class="divun">
+            <input type="text" id="q11" placeholder="Qualification">
+            <input type="text" id="q12" placeholder="School/College">
+            <input type="text" id="q13" placeholder="University/Board">
+            <input type="text" id="q14" placeholder="Year">
+            <input type="text" id="q15" placeholder="Score">
+        </div>
+        <p>Projects <button id="rproj">Reset Projects</button><br><span id="projwarn">Enter the number of projects you wish to add then press <code>ENTER</code></span></p>
+        <input type="text" id="projnum" placeholder="Min 1 Max 5">
+        <div class="projin" id="projin">
+        </div>
+
+
+        <p>Programming Languages:</p>
+        <input type="text" id="progLang" placeholder="C, C++, Python">
+        <p>Languages</p>
+        <input type="text" id="lang" placeholder="HTML5, CSS3, BootStrap">
+        <p>Frameworks</p>
+        <input type="text" id="frameworks" placeholder="ReactJS, NodeJS, ExpressJS">
+        <p>Databases</p>
+        <input type="text" id="dbs" placeholder="MongoDB, MySQL">
+        <p>Tools</p>
+        <input type="text" id="tools" placeholder="Visual Studio, Android Studio">
+
+        <p>Certifications <button id="rcert">Reset Certificates</button><br><span id="certwarn">Enter the number of certificates you wish to add then press <code>ENTER</code></span></p>
+        <input type="text" id="certs" placeholder="Min 0 Max 5">
+        <div id="cert">
+        </div>
+
+        <p>Achievements <button id="rach">Reset Achievements</button><br><span id="achwarn">Enter the number of achievements you wish to add then press <code>ENTER</code></span></p>
+        <input type="text" id="ach" placeholder="Min 0 Max 5">
+        <div id="achs">
+        </div>
+
+        <p>Hobbies <button id="rhobb">Reset Hobbies</button><br><span id="hobbwarn">Enter the number of hobbies you wish to add then press <code>ENTER</code></span></p>
+        <input type="text" id="hobb" placeholder="Min 0 Max 4">
+        <div id="hobbs">
+            
+        </div>
+
+        <div class="buttons">
+            <button id="submit">Create Resume</button>
+            <button id="reset">Reset</button>
+        </div>
+    </fieldset>
+    
+</body>
+</html>
